@@ -1,7 +1,7 @@
 nav{
     position: fixed;
     background: rgba(0, 0, 0, 0.5);
-    padding: 0px, 5pxs;
+    padding: 0px, 5px;
     border: 0px 0px;
   }
   section{
@@ -9,14 +9,16 @@ nav{
     background-repeat: no-repeat; 
     background-attachment: fixed;   
     background-size: cover;
-    width: 100%;
-    
+    width: 100%;    
     background-position: center;
   }
 nav li a{
   color: #fffafaea; 
   font-family: 'Open Sans', sans-serif;
   font-size: 13.5px;
+}
+a{
+  font-family: 'Open Sans', sans-serif;  
 }
 nav .brand-logo{
   color: #fffafaea; 
@@ -26,15 +28,15 @@ nav .brand-logo{
 }
 .toImg{
   background-color: transparent;
-  height: 600px;
+  height: 600px;  
   top: 600px;
 }
 .aboutMe{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.911);  
   height: 200px;
 }
-#text p{
-  color: #fffafaea; 
+.aboutMe p{
+  color: #fffafab9; 
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -44,45 +46,72 @@ nav .brand-logo{
   background-color: transparent;
   height: 300px;
 }
-h5{
-  font-size: 20px;   
-  width: 100%;
-  color:  #fffafaea; 
-  font-family: 'Open Sans', sans-serif;
-  height: 18px;
-  position: absolute;
-  text-align: center
-}
+
 #projects-container{
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  background-color: black;  
-  height: 550px;  
+  padding: 20px 5px 0px 0px;  
+  background-color: rgba(0, 0, 0, 0.911);  
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px; 
-  justify-content: center;
-  padding: 50px 0px 0px 0px;
 }
 
 .projects{
-width: 30%;
-background-color: black;
+background-color: rgba(0, 0, 0, 0.637);
 background-position: center;
-border: 0.5px solid rgba(255, 255, 255, 0.308);
-margin: 5px 4px;  
+border: 0.5px solid rgba(255, 255, 255, 0.212);
+padding-bottom: 5px;
 }
 
 .projects p {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px; 
-  color: rgba(253, 249, 243, 0.932)
+  color: rgba(253, 249, 243, 0.815);
+  height: 200px;
 }
 
-#btn-repositorio{
-border: 0.5px solid rgba(255, 255, 255, 0.521);  
+h5{
+  font-size: 20px;   
+  color:  #fffafacb; 
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0px 0px 10px;
+}
+
+.btn-repositorio{
+border: 0.5px solid rgba(255, 255, 255, 0.418);  
 font-family: 'Open Sans', sans-serif;
-color: azure;
-font-size: 13px;
+color: rgba(253, 249, 243, 0.815);
+font-size: 14px;
+}
+#skills{
+  background-color: rgba(0, 0, 0, 0.911);  
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0px 0px 0px;
+}
+#skills li{
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(253, 249, 243, 0.815);
+  font-size: 14px;
+}
+td{
+  color: rgba(253, 249, 243, 0.815);  
+  text-align: center;  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.5px; 
+}
+.soft{
+  margin-top: 3%;
+}
+.tech{
+  border-right: 0.5px solid rgba(255, 255, 255, 0.658); 
+}
+.soft i{
+  color: #ee666af6;
+}
+.type-skill{
+  font-size: 16px;  
+}
+footer{
+  height: 300px;
+  background-color: black;
+  padding: 15px
 }

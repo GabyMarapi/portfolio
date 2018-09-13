@@ -9,7 +9,8 @@
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
   <link rel="stylesheet" href="./src/css/style.css">
   <title>My portfolio</title>
@@ -18,8 +19,8 @@
 <body>
   <header>
     <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">GM</a>
+      <div class="nav-content">
+        <a href="#!" class="brand-logo">Gaby Marapi</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
@@ -28,7 +29,7 @@
             <a href="sass.html">ACERCA DE MI</a>
           </li>
           <li>
-            <a href="badges.html">SKILL</a>
+            <a href="badges.html">SKILLS</a>
           </li>
           <li>
             <a href="collapsible.html">PROYECTOS</a>
@@ -42,7 +43,7 @@
             <a href="sass.html">ACERCA DE MI</a>
           </li>
           <li>
-            <a href="badges.html">SKILL</a>
+            <a href="badges.html">SKILLs</a>
           </li>
           <li>
             <a href="collapsible.html">PROYECTOS</a>
@@ -61,39 +62,167 @@
     </div>
     <div class="aboutMe">
       <img class="responsive-img">
-      <div id="text">
-        <p>" Soy una Front-end Developer apasionada
-          <br> por brindar soluciones
+      <div>
+        <p>
+          <i class="fas fa-quote-left teal-text"> </i> &nbsp; Soy una Front-end Developer
+          <br> apasionada por brindar soluciones
           <br> tecnológicas de alto impacto.
-          <br> Me encanta el trabajo en equipo y los retos ".</p>
+          <br> Me encanta el trabajo en
+          <br> equipo y los retos &nbsp;
+          <i class="fas fa-quote-right teal-text"></i>
+        </p>
       </div>
     </div>
     <div class="secondSect">
 
     </div>
-    <h5>Mis Proyectos</h5>
-    
+    <div id="skills">
+      <h5>Mis Habilidades</h5>
+      <div class="row">
+        <div class="col s12 m6 l6 tech">
+
+          <table class="centered">
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>
+                  <i class="fab fa-js-square teal-text fa-2x"></i>
+                  <br>JavaScript</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <i class="fab fa-node teal-text fa-3x"></i>
+                </td>
+                <td></td>
+                <td>
+                  <i class="fab fa-node teal-text fa-3x"></i>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fab fa-js-square teal-text fa-2x"></i>
+                  <br>JavaScript</td>
+                <td></td>
+                <td class="type-skill">- &nbsp;Tech&nbsp; -</td>
+                <td></td>
+                <td>
+                  <i class="fab fa-js-square teal-text fa-2x"></i>
+                  <br>JavaScript</td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td>
+                  <i class="fab fa-node teal-text fa-3x"></i>
+                </td>
+                <td></td>
+                <td>
+                  <i class="fab fa-node teal-text fa-3x"></i>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>
+                  <i class="fab fa-js-square teal-text fa-2x"></i>
+                  <br>JavaScript</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s12 m6 l6 soft">
+
+          <table class="centered">
+            <tbody>
+              <tr>
+                <td></td>
+                <td>
+                  <i class="fas fa-users-cog fa-2x"></i>
+                  <br>Trabajo en equipo</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fab fa-js-square fa-2x"></i>
+                  <br>JavaScript</td>
+                <td class="type-skill">- &nbsp; Soft &nbsp; -</td>
+                <td>
+                  <i class="fab fa-js-square fa-2x"></i>
+                  <br>JavaScript</td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <i class="fab fa-js-square fa-2x"></i>
+                  <br>JavaScript</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="secondSect">
+
+    </div>
     <div id="projects-container">
-      
-      <div class="projects card">
-          <p>Soy Tu Pata <br> Social Network</p>
-          <a class="waves-effect waves-light btn">DEMO</a>
-          <a class="waves-effect waves-teal btn-flat" id="btn-repositorio">REPOSITORIO</a>
-      </div>
-      <div class="projects card">
-          <p>MD <br> MarkDown</p>
-          <a class="waves-effect waves-light btn">DEMO</a>
-          <a class="waves-effect waves-teal btn-flat" id="btn-repositorio">REPOSITORIO</a>
-      </div>
-      <div class="projects card">
-          <p> TM <br> Data Dashboard </p>
-          <a class="waves-effect waves-light btn">DEMO</a>
-          <a class="waves-effect waves-teal btn-flat" id="btn-repositorio">REPOSITORIO</a>
+      <h5>Mis Proyectos</h5>
+      <div class="row">
+        <div class="col s12 m12 l4 blue-text ">
+          <div class="projects card">
+            <p>Soy Tu Pata
+              <br> Social Network</p>
+            <a class="waves-effect waves-light btn teal">DEMO</a>
+            <a class="waves-effect waves-teal btn-flat btn-repositorio">
+              <i class="fab fa-github"></i> &nbsp; REPO</a>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="projects card">
+            <p>MD
+              <br> MarkDown</p>
+            <a class="waves-effect waves-light btn teal">DEMO</a>
+            <a class="waves-effect waves-teal btn-flat btn-repositorio">
+              <i class="fab fa-github"></i> &nbsp; REPO</a>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="projects card">
+            <p class=""> TM
+              <br> Data Dashboard </p>
+            <a class="waves-effect waves-light btn teal">DEMO</a>
+            <a class="waves-effect waves-teal btn-flat btn-repositorio">
+              <i class="fab fa-github"></i> &nbsp; REPO</a>
+          </div>
+        </div>
       </div>
     </div>
-
+    <div class="secondSect">
+    </div>
   </section>
-
+<footer>
+  <div>
+      <h5>Contactame</h5>  
+  </div>
+    
+</footer>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
