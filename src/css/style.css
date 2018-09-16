@@ -8,9 +8,10 @@ nav{
     background-image: url('../img/team.jpg');
     background-repeat: no-repeat; 
     background-attachment: fixed;   
-    background-size: cover;
     width: 100%;    
     background-position: center;
+    background-size: cover;
+    
   }
   .navClass{
     background: rgba(19, 18, 18, 0.89); 
@@ -131,7 +132,7 @@ td{
   font-size: 13.5px; 
 }
 .soft{
-  margin-top: 7%;
+  margin-top: 2.5%;
 }
 .tech{
   border-right: 0.5px solid rgba(255, 255, 255, 0.658); 
@@ -142,8 +143,23 @@ td{
 .type-skill{
   font-size: 16px;  
 }
-footer{
-  background-color: black;
+#contacto{
   padding: 15px;
   height: 400px;
+  background-color: rgba(14, 13, 13, 0.829);  
+  text-align: center;
+  color: rgba(253, 249, 243, 0.815);  
 }
+
+
+footer{
+  background-color: rgb(17, 16, 16);
+  padding: 15px;
+  color: rgba(253, 249, 243, 0.815);  
+  text-align: center;  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px; 
+}
+
+
+

@@ -11,5 +11,5 @@ $(document).scroll(()=>{
     }
 })
 $('.scrollspy').scrollSpy({
-    scrollOffset:80
+    scrollOffset:100
 })
