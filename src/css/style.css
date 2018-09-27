@@ -3,6 +3,10 @@ nav{
     background: rgba(255, 248, 248, 0);
     padding: 0px, 5px;
     color: #20887d;
+    z-index: 9;
+}
+.side-nav {
+  padding-top: 64px;
 }
 section{
     width: 100%;    
@@ -19,11 +23,13 @@ i.material-icons {
 }
 nav li a{
   color: #fffafaea; 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  font-weight:bold;
 }
 a{
-  font-family: 'Open Sans', sans-serif;  
+  font-family: 'Roboto', sans-serif; 
+  font-weight:bold;  
 }
 nav .brand-logo{
   color: #20887d; 
