@@ -3,7 +3,7 @@
     "title":"Markdown",
     "description":"Librería que permite validar la existencia de enlaces rotos dentro de un archivo Markdown y obtener cálculos estadísticos en base a lo datos obtenidos    ",
     "tools":" Node JS, JavaScript, NPM",
-    "imgDestop":"https://fotos.subefotos.com/c32c22d2ad24f6374b6938f9dc08f729o.png",
+    "imgDestop":"https://fotos.subefotos.com/c6d025c3b4011ded704eacbd35b621e3o.png",
     "imgMobile":2,
     "category":"appweb"
 },
@@ -12,7 +12,7 @@
     "title":"Markdown",
     "description":"Librería que permite validar la existencia de enlaces rotos dentro de un archivo Markdown y obtener cálculos estadísticos en base a lo datos obtenidos    ",
     "tools":" Node JS, JavaScript, NPM",
-    "imgDestop":"https://fotos.subefotos.com/c32c22d2ad24f6374b6938f9dc08f729o.png",
+    "imgDestop":"https://fotos.subefotos.com/d01210fcb0415a6628671487cb6acc36o.png",
     "imgMobile":2,
     "category":"appweb"
 },
@@ -21,17 +21,8 @@
     "title":"Markdown",
     "description":"Librería que permite validar la existencia de enlaces rotos dentro de un archivo Markdown y obtener cálculos estadísticos en base a lo datos obtenidos    ",
     "tools":" Node JS, JavaScript, NPM",
-    "imgDestop":"https://fotos.subefotos.com/c32c22d2ad24f6374b6938f9dc08f729o.png",
+    "imgDestop":"https://fotos.subefotos.com/614b9fc284dd712a3ef8e3edc8fb2aa0o.png",
     "imgMobile":2,
     "category":"librery"
-},
-{
-    "id":"P0001",
-    "title":"Markdown",
-    "description":"Librería que permite validar la existencia de enlaces rotos dentro de un archivo Markdown y obtener cálculos estadísticos en base a lo datos obtenidos    ",
-    "tools":" Node JS, JavaScript, NPM",
-    "imgDestop":"https://fotos.subefotos.com/c32c22d2ad24f6374b6938f9dc08f729o.png",
-    "imgMobile":2,
-    "category":"appweb"
 }
 ]

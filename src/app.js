@@ -38,7 +38,7 @@ $(document).ready(() => {
 })
 
 $(document).scroll(() => {
-    if ($(window).scrollTop() > $(window).height() + 56) {
+    if ($(window).scrollTop() > $(window).height() + $('nav').height()) {
         $('nav').addClass('navClass')
         $('nav').removeClass('z-depth-0')
     }
@@ -48,7 +48,7 @@ $(document).scroll(() => {
     }
 })
 $('.scrollspy').scrollSpy({
-    scrollOffset: 66
+    scrollOffset: 66    
 })
 
 $('#filter-project').click((e) => {
@@ -57,3 +57,24 @@ $('#filter-project').click((e) => {
     }
 })
 
+
+
+$(document).ready(function () {
+    $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({ fullWidth: true });
+    $('.slide-prev').click(function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $('.carousel').carousel('prev')
+    });
+    $('.slide-next').click(function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $('.carousel').carousel('next')
+    });
+    //this is for navigation using a new tab
+    $('.share-btn').click(function (e) {
+        var win = window.open('http://google.com', '_blank');
+        win.focus();
+    });
+});

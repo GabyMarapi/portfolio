@@ -70,6 +70,9 @@ nav .brand-logo{
   height: 600px;  
   top: 600px;
 }
+.section scrollspy{
+  padding-top: 50%
+}
 #about-me{
   display: flex;
   background: rgb(253, 253, 253); 
@@ -96,7 +99,6 @@ nav .brand-logo{
 h4{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin: 0px 0px 10px;
   font-size: 28px;
   font-weight: bold;
   color:  #444444; 
@@ -112,12 +114,14 @@ h4{
   height: 800px;
 }
 
-#projects-container{
-  padding: 20px 5px 0px 0px;  
-  background: rgb(253, 253, 253);  
+.projects-container{
+  background-color: rgb(255, 253, 253);  
   text-align: center;
 }
 
+.project-box{
+  padding: 0 0;
+}
 .tabs{
 width: 90%;
 
@@ -155,16 +159,14 @@ width: 90%;
 }
 
 .projects{
-  background: rgb(253, 253, 250);  
   background-position: center;
-  
   padding-bottom: 5px;
-
+  margin-bottom: 25%
 }
 .projects p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px; 
-  color: rgba(253, 249, 243, 0.815);
+  font-size: 17px; 
+  color: rgba(37, 37, 37, 0.99);
 } 
 
 .projects img{
@@ -172,12 +174,13 @@ width: 90%;
   width: 400px;
 
 }
-
-.btn-repositorio{
-border: 0.5px solid rgba(255, 255, 255, 0.418);  
-font-family: 'Open Sans', sans-serif;
-color: rgba(253, 249, 243, 0.815);
-font-size: 14px;
+.button-project{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.projects a{
+  margin: 0 2%;
 }
 #skills{
   background-color:#F6F6F6; 
@@ -243,6 +246,12 @@ footer{
     color: yellow;
     text-align: center;
     justify-content: center;
+}
+.projects{
+  margin-bottom: 10%;
+}
+.project-box{
+  padding: 5% 15%;
 }
 }
 
