@@ -183,7 +183,7 @@ width: 90%;
   margin: 0 2%;
 }
 #skills{
-  background-color:#F6F6F6; 
+  background-color:#f6f6f67d; 
   text-align: center;
   justify-content: center;
   padding: 20px 0px 0px 0px;
@@ -202,17 +202,45 @@ width: 90%;
 #skill h4{
   color:  #e0ebe8; 
 }
+#skills h5{
+  margin: 6% auto;
+  color: #26a69a;
+}
+.btn-large i {
+  font-size: 35px;
+}
 td{
   color: rgba(253, 249, 243, 0.815);  
   text-align: center;  
   font-family: 'Open Sans', sans-serif;
   font-size: 13.5px; 
 }
-.soft{
-  margin-top: 7%;
-}
+
 .tech{
   border-right: 0.5px solid rgba(255, 255, 255, 0.658); 
+  margin-top: 5%;
+  padding: 3% 2%;
+}
+.tech-icon{
+  margin-bottom: 2%;
+} 
+.tech-icon i{
+  color: #444 !important;
+}
+.tech-icon span{
+  color: #26a69a;
+  font-weight: bold; 
+
+}
+
+.btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn-flat.disabled, .btn:disabled, .btn-large:disabled, .btn-floating:disabled, .btn-large:disabled, .btn-flat:disabled, .btn[disabled], [disabled].btn-large, .btn-floating[disabled], .btn-large[disabled], .btn-flat[disabled] {
+  pointer-events: none;
+  background-color: rgb(235, 235, 235) !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #9F9F9F !important;
+  cursor: default;
+  background-image: linear-gradient(rgb(226, 226, 226), rgba(240, 245, 245, 0.973))
 }
 .soft i{
   color: #26a69a;
@@ -252,6 +280,14 @@ footer{
 }
 .project-box{
   padding: 5% 15%;
+}
+.tech{
+  border-right: 0.5px solid rgba(255, 255, 255, 0.658); 
+  margin-top: 7%;
+  padding: 3% 8%;
+}
+.row-3{
+padding: 5% 15%
 }
 }
 
