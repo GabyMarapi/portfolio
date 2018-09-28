@@ -38,7 +38,7 @@ $(document).ready(() => {
 })
 
 $(document).scroll(() => {
-    if ($(window).scrollTop() > $(window).height() + $('nav').height()) {
+    if ($(window).scrollTop() > $(window).height() - $('nav').height() ) {
         $('nav').addClass('navClass')
         $('nav').removeClass('z-depth-0')
     }

@@ -13,6 +13,11 @@ section{
     background-position: center;
     background-size: cover;
 }
+hr{
+  width: 10%;
+  margin: 0 auto;
+  border: 1px solid #2db9abe7;
+}
 i.material-icons {
   color: #20887d;
 }
@@ -104,18 +109,26 @@ h4{
   font-size: 28px;
   font-weight: bold;
   color:  #444444; 
+  margin: 3% auto 5px auto;
 }
 
 #presentation{
+  display: flex;
   background-image: url('https://fotos.subefotos.com/1be0373aef58d58d2a90c9711c6e67d5o.jpg');
   background-repeat: no-repeat; 
   background-attachment: fixed;   
   width: 100%;    
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgba(37, 37, 37, 0.99);
 }
 
+.name{
+  margin-top: 20% auto;
+}
 .projects-container{
   background-color: rgb(255, 253, 253);  
   text-align: center;
@@ -156,10 +169,8 @@ width: 90%;
   margin-left: 0;
 }
 .row .col {
-  
  align-items: center; 
 }
-
 .projects{
   background-position: center;
   padding-bottom: 5px;
@@ -186,17 +197,15 @@ width: 90%;
   padding: 1%;
   line-height: inherit;
 }
-
-
 .projects a{
   margin: 0 2%;
 }
 #skills{
   background-color:#f6f6f6da; 
+  background: linear-gradient( #efefef, #ffffff,#efefef);
   text-align: center;
   justify-content: center;
   padding: 20px 0px 0px 0px;
-  height: calc(100vh - 50px);
 }
 #skills li{
   font-family: 'Open Sans', sans-serif;
@@ -210,9 +219,10 @@ width: 90%;
   color:  #e0ebe8; 
 }
 #skills h5{
-  margin: 6% auto;
+  margin:8% auto 0%;
   color: #26a69a;
 }
+
 .btn-large i {
   font-size: 260%;
 }
@@ -222,9 +232,7 @@ td{
   font-family: 'Open Sans', sans-serif;
   font-size: 13.5px; 
 }
-
 .tech{
-  border-right: 0.5px solid rgba(255, 255, 255, 0.658); 
   margin-top: 5%;
   padding: 3% 2%;
 }
@@ -232,42 +240,64 @@ td{
   margin-bottom: 2%;
 } 
 .tech-icon i{
-  color: #444 !important;
+  color: #f2f2f2 !important;
 }
 .tech-icon span{
   color: #26a69a;
   font-weight: bold; 
 }
 
+
 .btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn-flat.disabled, .btn:disabled, .btn-large:disabled, .btn-floating:disabled, .btn-large:disabled, .btn-flat:disabled, .btn[disabled], [disabled].btn-large, .btn-floating[disabled], .btn-large[disabled], .btn-flat[disabled] {
   pointer-events: none;
-  background-color: rgb(235, 235, 235) !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #9F9F9F !important;
   cursor: default;
-  background-image: linear-gradient(rgb(226, 226, 226), rgba(240, 245, 245, 0.973))
+  background-color: rgba(72, 73, 72, 0.85)!important;
 }
 .soft i{
   color: #26a69a;
 }
-.type-skill{
+.card{
+  background: transparent !important;
+  border: none;
+  box-shadow: none;
+}
+.card .card-content {
+  padding: 15px 2px;
+}
+.card .card-content p {
+  margin: 0;
+  color: #2c2c2c;
   font-size: 16px;  
 }
+.type-skill{
+  font-size: 15px;  
+}
+.card .card-content .card-title{
+  font-size: 14px;  
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
 footer{
   background-color: rgba(1, 0, 0, 0.905);
   padding: 15px;
 }
 #contact{
-  padding: 10% 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   text-align: center;
-  height: calc(100vh - 50px);
-  
+  height: calc(100vh - 65px);
 }
 
+#contact h4{
+margin-bottom: 4%;
+}
 #contact-content{
   color: rgb(220, 226, 226);
   text-align: center;
@@ -277,11 +307,14 @@ footer{
 
 #contact h4{
   color:  #f3f3f3ec; 
+  font-size: 30px;  
 }
 #contact p{
   color: #9F9F9F;
 }
-
+#contact i{
+color: #28c2b2;
+}
 @media only screen and (min-width: 768px) {
   #about-me img{
     height: 130px;
@@ -317,14 +350,26 @@ footer{
 padding: 5% 15%
 }
 #skills h5{
-  margin: 2% auto;
+  margin: 5% auto 2%;
   color: #26a69a;
 }
 .tech{
   border-right: 0.5px solid rgba(255, 255, 255, 0.658); 
   margin-top: 1%;
   padding: 1% 15%;
-
 }
+hr{
+  width: 4%;
+}
+.soft{
+  padding: 0 12%;  
+  margin: 1% auto 2%;
+}
+.card{
+  margin: auto 15px;
+}
+#contact h4{
+  margin-bottom: 20%;
+  }
 }
 
