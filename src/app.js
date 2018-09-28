@@ -48,7 +48,7 @@ $(document).scroll(() => {
     }
 })
 $('.scrollspy').scrollSpy({
-    scrollOffset: 66    
+    scrollOffset: $('nav').height()    
 })
 
 $('#filter-project').click((e) => {
