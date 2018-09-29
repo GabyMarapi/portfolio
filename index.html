@@ -18,8 +18,8 @@
 
 <body>
   <header>
-    <nav class="z-depth-0">
-      <div class="nav-content">
+    <nav class="nav-extended z-depth-0">
+      <div class="nav-wrapper">
         <a href="#!" class="brand-logo">GM</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
@@ -41,10 +41,10 @@
         </ul>
         <ul class="side-nav " id="mobile-demo">
           <li>
-            <a href="#about-me">ACERCA DE MÍ</a>
+            <a href="#!about-me">ACERCA DE MÍ</a>
           </li>
           <li>
-            <a href="#skills">HABILIDADES</a>
+            <a id=''href="#skills">HABILIDADES</a>
           </li>
           <li>
             <a href="#projects-container">PROYECTOS</a>
@@ -59,19 +59,27 @@
   <section>
     <div id="presentation" class="section scrollspy">
       <div class="name">
-          <h3>GABY MARAPI</h3>
-          <H5>FRONT-END DEVELOPER</H5>
+        <h3>GABY MARAPI</h3>
+        <H5>FRONT-END DEVELOPER</H5>
       </div>
     </div>
     <div id="about-me" class="section scrollspy">
-      <img src="https://fotos.subefotos.com/4f494fdfb407f410d1f6aa1f781c2f5do.jpg">
-      <div id="text">
-        <h4 class="teal-text">Hola!</h4>
-        <p class="flow-text">
-          Soy una Front-end  developer con  background  en  Administración y Sistemas, apasionada por brindar soluciones tecnológicas de alto  impacto.  Me caracterizo  por trabajar  en  equipo  y por asimilar   nuevos  conocimientos   rápidamente,   disfruto  de 
-
-los desafíos  y  el  planteamiento  de  soluciones. 
-        </p>
+      <div class="row">
+        <div class="col s12 m6 l6 photo-content" >
+          <div id="photo-about">
+          </div>
+        </div>
+        <div class="col s12 m6 l6" id="text">
+          <h4 class="teal-text">Hola!</h4>
+          <p class="flow-text">
+            Soy una Front-end developer con background en Administración y Sistemas, apasionada por brindar soluciones tecnológicas de
+            alto impacto. Me caracterizo por trabajar en equipo y por asimilar nuevos conocimientos rápidamente, disfruto
+            de los desafíos y el planteamiento de soluciones. <br><br>
+            <a class="waves-effect waves-light btn teal" target="_blank" href="https://drive.google.com/file/d/1XiJg1lTF41lLjb6TJHjfLHpypGvREIx-/view">
+              CV</a>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
     <div id="skills" class="section scrollspy">
@@ -80,35 +88,35 @@ los desafíos  y  el  planteamiento  de  soluciones.
       <h5>Socioemocionales</h5>
       <div class="row">
         <div class="soft">
-            <div class="row">
-                <div class="col s12 m4 l4">
-                  <div class="card">
-                    <div class="card-content">
-                        <i class="far fa-lightbulb fa-2x"></i>
-                      <span class="card-title">Análitico</span>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col s12 m4 l4">
-                  <div class="card">
-                    <div class="card-content">
-                        <i class="far fa-lightbulb fa-2x"></i>                    
-                      <span class="card-title">Trabajo crítico</span>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col s12 m4 l4">
-                  <div class="card">
-                    <div class="card-content">
-                        <i class="far fa-lightbulb fa-2x"></i>                      
-                      <span class="card-title">Autoaprendizaje</span>
-                      <p></p>
-                    </div>
-                  </div>
+          <div class="row">
+            <div class="col s12 m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <i class="far fa-lightbulb fa-2x"></i>
+                  <span class="card-title">Análitico</span>
+                  <p></p>
                 </div>
               </div>
+            </div>
+            <div class="col s12 m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <i class="far fa-lightbulb fa-2x"></i>
+                  <span class="card-title">Pensamiento crítico</span>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <i class="far fa-lightbulb fa-2x"></i>
+                  <span class="card-title">Autoaprendizaje</span>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <h5>Técnicas</h5>
@@ -138,7 +146,7 @@ los desafíos  y  el  planteamiento  de  soluciones.
               </a>
               <p>React</p>
             </div>
-            
+
             <div class="col s6 m3 l3 tech-icon">
               <a class="btn-floating disabled  btn-large">
                 <i class="fas fa-server fa-3x"></i>
@@ -153,7 +161,7 @@ los desafíos  y  el  planteamiento  de  soluciones.
               </a>
               <p>Html5</p>
             </div>
-            
+
             <div class="col s6 m3 l3 tech-icon">
               <a class="btn-floating disabled  btn-large">
                 <i class="fab fa-css3-alt fa-3x"></i>
@@ -175,11 +183,11 @@ los desafíos  y  el  planteamiento  de  soluciones.
               </a>
               <p>Materialize</p>
             </div>
-            
+
           </div>
         </div>
       </div>
-      
+
     </div>
     <div id="projects-container" class="section scrollspy">
       <h4>Mis Proyectos</h4>
@@ -281,13 +289,17 @@ los desafíos  y  el  planteamiento  de  soluciones.
             <i class="far fa-envelope fa-1x"></i> &nbsp;gmarapiortiz@gmail.com</p>
           <p>
             <i class="fas fa-phone fa-1x"></i> &nbsp;933258290</p>
-         <a href="https://github.com/GabyMarapi" target="_blank"><i class="fab fa-github-square fa-2x" ></i></a> 
-         <a href="https://www.linkedin.com/in/gabymarapi/" target="_blank"><i class="fab fa-linkedin text-teal fa-2x"></i></a>
+          <a href="https://github.com/GabyMarapi" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/gabymarapi/" target="_blank">
+            <i class="fab fa-linkedin text-teal fa-2x"></i>
+          </a>
         </div>
       </div>
-      
+
     </div>
-    
+
   </footer>
 
 

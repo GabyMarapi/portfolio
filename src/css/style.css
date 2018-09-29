@@ -6,7 +6,19 @@ nav{
     z-index: 9;
 }
 .side-nav {
+  background-color: rgb(255, 255, 255);
   padding-top: 64px;
+  width: 250px;
+}
+.side-nav a{
+  color: #2c2c2c;
+  font-weight: bold;
+  font-family: 'Krub', sans-serif;
+}
+#sidenav-overlay {
+  background-color: rgb(255, 255, 255,0.3);
+  padding-top: 64px;
+
 }
 section{
     width: 100%;    
@@ -80,29 +92,6 @@ nav .brand-logo{
 .section scrollspy{
   padding-top: 50%
 }
-#about-me{
-  display: flex;
-  background: rgb(253, 253, 253); 
-  height: calc(100vh - 50px);
-  flex-direction: column;
-  padding-top: 40px;
-  align-items: center;
-}
-#text{
-  padding: 20px 20px;
-  text-align: center;
-}
-#about-me p{
-  color: rgb(27, 27, 27); 
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-
-#about-me img{
-  height: 100px;
-  width:140px;
-}
 h4{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -111,15 +100,14 @@ h4{
   color:  #444444; 
   margin: 3% auto 5px auto;
 }
-
 #presentation{
   display: flex;
   background-image: url('https://fotos.subefotos.com/1be0373aef58d58d2a90c9711c6e67d5o.jpg');
   background-repeat: no-repeat; 
-  background-attachment: fixed;   
-  width: 100%;    
+  background-attachment: fixed; 
   background-position: center;
-  background-size: cover;
+  background-size: cover;  
+  width: 100%;    
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -128,6 +116,50 @@ h4{
 
 .name{
   margin-top: 20% auto;
+}
+#about-me{
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 5% 5%;
+  box-shadow: inset 0px 0px 0px 400px rgba(255, 255, 255, 0.3);
+}
+.photo-content{
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 0px 3px rgb(38, 166, 154,0.7);
+  padding: 15% 5%;
+}
+#photo-about{
+  background: #fff;
+  background-image: url('https://fotos.subefotos.com/3f1384ab1a7e2a0aaf8a729cb572ff5eo.jpg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 0px 400px rgba(255, 255, 255, 0.2);
+  height:30vh;
+  background-size: contain;
+  width: 50%
+}
+#text{
+  padding: 0px 2px;
+  text-align: center;
+}
+#about-me p{
+  color: rgb(27, 27, 27); 
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+#about-me img{
+  height: 100px;
+  width:140px;
+}
+#about-me h4{
+  color: #20887d !important;
 }
 .projects-container{
   background-color: rgb(255, 253, 253);  
@@ -253,7 +285,7 @@ td{
   -webkit-box-shadow: none;
   box-shadow: none;
   cursor: default;
-  background-color: rgba(72, 73, 72, 0.85)!important;
+  background-color: rgba(47, 47, 47, 0.85)!important;
 }
 .soft i{
   color: #26a69a;
@@ -315,17 +347,32 @@ margin-bottom: 4%;
 #contact i{
 color: #28c2b2;
 }
+
+
 @media only screen and (min-width: 768px) {
-  #about-me img{
-    height: 130px;
-    width:200px;
+  #about-me{
+    padding: 5% 20%;
+  }
+  #about-me h4{
+    padding:0 auto;
+  }
+  #photo-content  {
+    height: 100%;
+    width:50%;
+    padding: 3% 3%;
   }
   #text{
     width: 50%;
+    height: 100%; 
+    padding: 0px auto;
   }
-  #about-me{
-    padding-top: 50px;
+  #text p{
+    padding-left: 5%;
   }
+  #photo-content{
+    padding: 5% 20%;   
+  }
+
   .tabs {
     display: flex;
     height: 48px;
@@ -371,5 +418,6 @@ hr{
 #contact h4{
   margin-bottom: 20%;
   }
+
 }
 
