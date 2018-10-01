@@ -17,3 +17,7 @@ $('.scrollspy').scrollSpy({
     scrollOffset: $('nav').height()    
 })
 $('.button-collapse').sideNav()
+
+$('.side-nav').click((e)=>{
+    $('.button-collapse').sideNav('hide');
+})
