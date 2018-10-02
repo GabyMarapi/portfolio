@@ -122,37 +122,42 @@ h4{
   width: 100%;
   align-items: center;
   padding: 5% 5%;
-  box-shadow: inset 0px 0px 0px 400px rgba(255, 255, 255, 0.3);
+  text-align: center; 
 }
 .photo-content{
-  background: transparent;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0px 0px 0px 3px rgb(38, 166, 154,0.7);
-  padding: 15% 5%;
+  background: #fff;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 0px 400px rgba(38, 166, 154, 0.5);
+  width: 50%;
+  height: 100%;
+  padding: 3% !important;
 }
-#photo-about{
+
+#photo{
   background: #fff;
   background-image: url('https://fotos.subefotos.com/3f1384ab1a7e2a0aaf8a729cb572ff5eo.jpg');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0px 0px 0px 400px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 0px 0px 400px rgba(38, 166, 154, 0.5);
   height:30vh;
-  background-size: contain;
-  width: 50%
+  width: 70%;
+  border: 2px solid #fff;
 }
 #text{
-  padding: 0px 2px;
-  text-align: center;
+  padding: auto 2px;
 }
 #about-me p{
   color: rgb(27, 27, 27); 
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  margin: 0%;
 }
 #about-me img{
   height: 100px;
@@ -160,6 +165,10 @@ h4{
 }
 #about-me h4{
   color: #20887d !important;
+  margin-bottom: 4%;
+}
+#cv{
+ text-align: center;
 }
 .projects-container{
   background-color: rgb(255, 253, 253);  
@@ -222,15 +231,12 @@ width: 90%;
 .button-project{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
 }
 .projects a{
+  margin-left: 2.5%;
+  padding: 0%;
   font-size: 14px;
-  padding: 1%;
-  line-height: inherit;
-}
-.projects a{
-  margin: 0 2%;
 }
 #skills{
   background-color:#f6f6f6da; 
@@ -352,14 +358,14 @@ color: #28c2b2;
 @media only screen and (min-width: 768px) {
   #about-me{
     padding: 5% 20%;
+    height: 100%;
   }
   #about-me h4{
     padding:0 auto;
   }
-  #photo-content  {
+  .photo-content{
     height: 100%;
-    width:50%;
-    padding: 3% 3%;
+    padding: 5% 5%;
   }
   #text{
     width: 50%;
@@ -369,10 +375,6 @@ color: #28c2b2;
   #text p{
     padding-left: 5%;
   }
-  #photo-content{
-    padding: 5% 20%;   
-  }
-
   .tabs {
     display: flex;
     height: 48px;
@@ -410,12 +412,10 @@ hr{
 }
 .soft{
   padding: 0 12%;  
-  margin: 1% auto 2%;
+  margin: 1% auto 1%;
 }
-
 #contact h4{
   margin-bottom: 20%;
   }
-
 }
 
